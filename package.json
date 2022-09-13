@@ -16,6 +16,9 @@
     "type": "git",
     "url": "https://github.com/primefaces/primeng.git"
   },
+    "overrides": {
+        "graceful-fs": "^4.2.10"
+    },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.0.0",
     "@angular/animations": "~12.0.0",

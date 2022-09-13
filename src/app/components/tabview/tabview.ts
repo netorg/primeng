@@ -25,12 +25,20 @@ let idx: number = 0;
     }
 })
 export class TabPanel implements AfterContentInit,OnDestroy {
+    @Input()  get headerStyleClass(): string {
+        return this._headerStyleClass;
+    }
+
+    set headerStyleClass(value: string) {
+        this._headerStyleClass = value;
+        this.tabView.cd.markForCheck();
+    }
 
     @Input() closable: boolean;
 
     @Input() headerStyle: any;
 
-    @Input() headerStyleClass: string;
+    _headerStyleClass: string;
 
     @Input() cache: boolean = true;
 
