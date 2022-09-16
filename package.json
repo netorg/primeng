@@ -1,5 +1,5 @@
 {
-  "name": "primeng",
+  "name": "@netorg/primeng",
   "version": "12.2.3",
   "license": "MIT",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/primefaces/primeng.git"
+    "url": "https://github.com/netorg/primeng.git"
   },
     "overrides": {
         "graceful-fs": "^4.2.10"
